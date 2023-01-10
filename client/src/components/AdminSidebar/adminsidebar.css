@@ -1,0 +1,81 @@
+.main {
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: rgb(26, 6, 45);
+  border-radius: 5px;
+  box-shadow: 0 0 2px grey;
+  margin-right: 20px;
+  min-height: 100%;
+  padding: 10px;
+  width: 300px;
+  color: azure;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: rgb(233, 227, 239);
+  box-shadow: 0 0 2px grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body {
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
+  box-shadow: 0 0 2px grey;
+  height: 82vh;
+  width: 100%;
+  padding: 15px;
+}
+.menu-item {
+  margin-top: 10px;
+}
+
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin: 0 15px;
+}
+.active-menu-item {
+  color: aliceblue;
+  background-color: rgb(47, 7, 84);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.page-title {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.94);
+  font-weight: bold;
+}
+
+.card-titlee {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.608);
+}
+
+.primary-button {
+  background-color: rgb(26, 6, 45) !important;
+  border-color: darkblue !important;
+  height: 40px !important;
+
+  color: white !important;
+  font-size: 16px !important;
+  width: max-content !important;
+}
